@@ -61,7 +61,7 @@ const NonAuthHome = () => {
     };
 
     const { data } = await axios.post(
-      "http://localhost:8080/graphql",
+      "http://localhost:8000/graphql",
       requestBody
     );
     // console.log(data.data.place);

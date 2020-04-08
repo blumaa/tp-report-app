@@ -31,7 +31,7 @@ import { useDispatch } from "redux-react-hook";
 import * as actions from "../../constants/action_types";
 
 const client = createApolloFetch({
-  uri: "http://localhost:8080/graphql",
+  uri: "http://localhost:8000/graphql",
 });
 
 const Transition = React.forwardRef(function Transition(props, ref) {
