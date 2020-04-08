@@ -25,11 +25,11 @@ const renderReports = (data) => {
       // console.log(report);
       let usaTime = new Date(report.dateTime).toLocaleString("en-US", {timeZone: "America/New_York"});
       usaTime = new Date(usaTime).toLocaleString();
-      console.log('USA time: '+usaTime)
+      // console.log('USA time: '+usaTime)
       
       let berlinTime = new Date(report.dateTime).toLocaleString("en-DE", {timeZone: "Europe/Berlin"});
       berlinTime = new Date(berlinTime).toLocaleString();
-      console.log('Berlin time: '+berlinTime)
+      // console.log('Berlin time: '+berlinTime)
 
 
       return report.status === "inStock" ? (
